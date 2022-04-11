@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @RAHegwood
-- 👀 I’m interested in network and data analysis, digital humanities
+- 👀 I’m interested in network and data analysis
 - 🌱 I’m currently learning HTML, CSS, SQL
 - 💞️ I’m looking to collaborate on Japanese and Asian American related social science projects, historical and current
 - 📫 How to reach me: Feel free to contact me at rhegwoodpdx@gmail.com
