@@ -35,8 +35,8 @@ figcaption {
     display: flex;
     color: rgb(226, 226, 226);
     text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px; 
+    letter-spacing: 2px;
+    font-size: 24px; 
 }
 
 /*Header icon fix attempt*/
