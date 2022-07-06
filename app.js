@@ -37,7 +37,7 @@ const navSlide = () => {
 
 }
 navSlide();
-/* Footer testing*/
+/* Footer testing
 
 $(document).ready(function() {
 	
@@ -67,3 +67,4 @@ $(document).ready(function() {
 		});
 	};
 });
+*/

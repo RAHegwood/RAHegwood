@@ -323,6 +323,7 @@ a[href^=mailto] {
     .nav-links li{
         opacity: 0;
     }
+    
     .burger {
         display: block;
     }
