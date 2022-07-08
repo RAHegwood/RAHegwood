@@ -99,6 +99,10 @@ figcaption {
     letter-spacing: 3px;
     font-weight: bold;
  }
+ .menu-btn-long {
+    flex-wrap: nowrap;
+
+ }
  .dropdown-menu {
     position: relative;
     display: inline-block;
