@@ -207,13 +207,19 @@ blockquote{
     text-align: justify;
   
   }
+
   
-  .mainContent a:link, .mainContent a:visited {
-    color: #4e6994;
+  .mainContent a:link {
+    color: #CC1919;
     text-decoration: none;
     font-weight: 600;
   }
-  
+  .mainContent a:visited{
+    color:#0087bc;
+    text-decoration: none;
+    font-weight: 600;
+
+  }
   .mainContent a:hover {
     text-decoration: underline;
     font-weight: 600;
