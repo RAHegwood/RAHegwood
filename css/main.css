@@ -99,6 +99,10 @@ figcaption {
     letter-spacing: 3px;
     font-weight: bold;
  }
+ .menu-btn-long {
+    flex-wrap: nowrap;
+
+ }
  .dropdown-menu {
     position: relative;
     display: inline-block;
@@ -323,6 +327,7 @@ a[href^=mailto] {
     .nav-links li{
         opacity: 0;
     }
+    
     .burger {
         display: block;
     }
