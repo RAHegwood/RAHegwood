@@ -231,8 +231,44 @@ blockquote{
     padding: 25px;
     margin: 0px 0px 50px 0px;
   }
+table {
+    table-layout: fixed;
+    width: 100%;
+    margin: 0 0 1.75em;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Georgia,"Times New Roman",serif;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table td{
+    border: 1px solid;
+    padding: 0.5em;
+    word-break: normal;
+}
+table th{
+    border: 1px solid;
+    padding: 0.5em;
+    word-break: normal;
+}
+table a:link {
+    color: #CC1919;
+    text-decoration: none;
+    font-weight: 600;
+  }
+ table a:visited{
+    color:#0087bc;
+    text-decoration: none;
+    font-weight: 600;
 
-
+  }
+ table a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+  }
 
 
 
