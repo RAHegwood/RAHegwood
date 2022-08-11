@@ -55,7 +55,41 @@
                 <div class="line3"></div>
             </div>
         </nav>
-        
+    <div id="content">
+        <div class="sectionHeader" id="featureHeader">Palladio Network Graphing: From Sources to Graph</div>
+        <div class="mainContent" id="featureContent">    
+            <p>In a previous post, I gave a brief introduction of why using Palladio network graphs is a useful methodologies for understanding the reach of transpacific migrant networks beyond just one purpose. You can map out migrant networks outside of a strictly utilitarian view of sketching the various groups involved in spurring migration itself from migration promoters all the way to new social groups in destination countries. Mobile networks are involved in much more than just moving and assimilating into a new culture. Network theory in general has numerous applications, but for here I used Palladio to visualize the relationship between various groups that support Japan’s Pavilion at the Golden Gate International Exposition (1939-1940). I rely especially on the notion from Actor-Network Theory that some actors within networks work to mobilize broader networks.</p><br>
+
+            <p>Palladio is a fairly versatile web platform for network analysis that seems to work best in tracking the relationships between actors who have correspondence. Think, Leonardo Davinci writing letters to other artists and patrons. By logging these letters in an excel spreadsheet and uploading it to Palladio, you have raw materials to visualize Davinci’s social and professional relationships and how they changed over time.</p><br>
+
+            <p>If, as was the case with this project, you don’t have an inventory of letters to use as raw data, you have to get creative. I mainly had a list of members of various associations involved in planning events at the Japan Pavilion like the one below from the Japanese Support Association for the San Francisco Golden Gate International Exposition. These list provide board member names, their employer, and their position on the board. Occasionally, a single member would be on multiple planning boards, which would reveal links between the groups and help us understand how these links played a role in mobilizing groups for Japan’s late-1930s public diplomacy. I know that the Ministry of Foreign Affairs played a key role in organizing the pavilion, but those individual members would only be on one association board. A network graph based on individual affiliation would reveal no relationship between the San Francisco support group and pavilion planners back in Tokyo.</p><br>
+            
+            <figure>
+                <img src="../images/screen-shot-2019-07-15-at-16.29.19.png" width=100% alt="List of name of the Planning Committee from the San Francisco Japanese American Community">
+            </figure>
+                <figcaption>
+                    Golden Gate International Exposition Japanese Support Association, Committee Members
+                </figcaption><br>
+            <p>So, I structured the data to show links based on relationships between associations and board members’ employers. I used four headings: ID#, name, employer, affiliation (which association board the individual was on), and employer categories such as importer or media. The name category is not strictly necessary here. I kept it because the spreadsheet is also a useful reference tool.</p><br>
+            
+            <figure>
+                <img src="../images/screen-shot-2019-07-15-at-16.37.15.png" width=100% alt="categorized spreadsheet with name, employer, affiliation, employer category">
+            </figure>
+                <br>
+            <p>The links created from this data is more abstract than saying definitively subject A cooperated with subject B. However, you can still see which employers played the most important role in coordinating events at the Japan pavilion. We therefore get to see, in a general way, the structure of international cooperation between Japanese officials and emigrant intermediaries.</p><br>
+
+            <p>Now that I had structured data, I saved the spreadsheet as a tab-separated-volume and uploaded that into the <a href="http://hdlab.stanford.edu/palladio-app/#/upload">Palladio new project page</a>
+            </p><br>
+            <figure>
+                <img src="../images/screen-shot-2019-07-15-at-16.51.57.png" width=100%>
+            </figure><br>
+            <p>Then I went to Graph, chose Affiliation as the Source and Employer Category and clicked “size nodes.” Then, presto! I have a messy graph showing relationships between world’s fair associations and the types of industries and ministries that supported them. By clicking on Facet below and selecting the dimension “Affiliation” you are then given the option of including some associations and not others. This allows you to see the relationship between specific associations and what industries and parts of government connected them.</p><br>
+            <figure>
+                <img src="../images/screen-shot-2019-07-15-at-16.55.54.png" width=100%>
+            </figure><br>
+            </div>     
+                
+        </div>  
 
         <footer id="footer" role="contentinfo">
             <div id="siteInfo">
