@@ -15,7 +15,6 @@ nav{
     min-height: 8vh;
     background-color: #23364d;
     font-family: 'Open Sans', sans-serif;
-
 }
 figure {
     border: thin #c0c0c0 solid;
@@ -231,6 +230,11 @@ blockquote{
     padding: 25px;
     margin: 0px 0px 50px 0px;
   }
+.banner{
+    display: flex;
+    justify-content: space-between;
+    
+}
 table {
     table-layout: fixed;
     width: 100%;
