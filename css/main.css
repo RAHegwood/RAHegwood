@@ -233,6 +233,7 @@ blockquote{
 .banner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 table {
