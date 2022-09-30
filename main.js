@@ -48,6 +48,73 @@ class MyHeader extends HTMLElement {
 }
 customElements.define('my-header', MyHeader)
 
+class NkHeader extends HTMLElement {
+    connectedCallback()  {
+        this.innerHTML = `
+        <header>
+        <nav>
+            <div class="logo">
+            <img src="/images/Utsukushima red gate ink.svg" alt="GateIcon" id="Gate" height="100px">
+           
+                <h4>Nikkei Histories</h4>
+            
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <!--
+                <div class="dropdown-menu">
+                    <button class="menu-btn">Data</button>
+                    <div class="menu-content">
+                        <a class="links" href="SQL.html">
+                            SQL Projects</a>
+                        <a class="links" href="R.html">R Projects</a>
+                        <a class="links" href="python_projects.html">Python</a>
+                        <a class="links" href="tableau.html">Tableau</a>
+                        <a class="links" href="network_analysis.html">Network Analysis</a>
+                    </div>
+                </div>
+                -->
+                <li>
+                    <a href="../research.html">Research</a>
+                </li>
+                <!--
+                <li>
+                    <a href="/html/projects.html">Projects</a>
+                </li>
+                -->
+                <div class="dropdown-menu">
+                    <button class="menu-btn">Nikkei Histories</button>
+                    <div class="menu-content">
+                        <a class="links" href="Nikkei_home.html">Nikkei Histories Home</a>
+                        <a class="links" href="Nikkei_sources.html">
+                            Sources</a>
+                        <a class="links" href="Nikkei_digital_archives.html">Digital Archives</a>
+                        <a class="links" href="Nikkei_online_newspapers.html">Online Newspapers</a>
+                        <a class="links" href="Nikkei_archives_US.html">Archives US</a>
+                        <a class="links" href="Nikkei_archives_japan.html">Archives Japan</a>
+                        <a class="links" href="Nikkei_bibliographies.html">Bibliographies</a>
+                    </div>
+                </div>        
+
+                
+                <li>
+                    <a href="../contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        </header> 
+        `
+    }
+}
+customElements.define('nk-header', NkHeader)
+/*I had to change header name from HeaderNK to NkHeader because the names were too similar.  */
 class MyFooter extends HTMLElement {
     connectedCallback()  {
         this.innerHTML = `
