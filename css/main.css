@@ -16,6 +16,7 @@ nav{
     background-color: #23364d;
     font-family: 'Open Sans', sans-serif;
 }
+
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
@@ -113,9 +114,12 @@ figcaption {
     min-width: 160px;
     z-index:1;
  }
- nav{
-    background-color: #23364d;
+ header {
+    position:sticky;
+    top: 0;
+
  }
+ 
  .links,.links-hidden{
     display: inline-block;
     color: rgb(255, 255, 255);
