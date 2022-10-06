@@ -12,7 +12,8 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 7vh;
+    max-height: 9vh;
     background-color: #23364d;
     font-family: 'Open Sans', sans-serif;
 }
@@ -43,7 +44,7 @@ figcaption {
 .logo img {
     display:flex;
     justify-content:flex-start;
-    height:12vh;
+    height:9vh;
     padding-right:50px;
 }
 .logo h4{
@@ -54,12 +55,14 @@ figcaption {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 50%;
 }
 
 .nav-links li {
-    list-style: none;padding: 10px;
+    list-style: none;
+    padding: 10px;
     color: rgb(226, 226, 226);
+    margin:auto;
     
 }
 
@@ -85,12 +88,13 @@ figcaption {
 }
 
 /* dropdown testing*/
+
 .menu-btn {
     background-color: #23364d;
-    display: flex;
+    margin:auto;
     justify-content: space-around;
     color: rgb(226, 226, 226);
-    padding: 12px;
+    padding: 10px;
     list-style: none;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
