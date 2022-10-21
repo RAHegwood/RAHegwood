@@ -615,6 +615,8 @@ a[href^=mailto] {
     box-sizing: border-box;
     margin: 30px;
     /*box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);*/
+    position: relative;
+    
 }
 .s-box h1{
     color: #23364d;
@@ -640,5 +642,36 @@ a[href^=mailto] {
 .s-box:hover{
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     transition: all ease .3s;
-    
+}
+.s-btn:hover{
+    background-color: #4a90e2;
+    border:1px solid #4a90e2;
+    color: #FFFFFF;
+    transition: all ease 0.3s;
+}
+.bar{
+    width: 100px;
+    height: 6px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    background-color: #4a90e2;
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+    animation: bar 0.5s;
+}
+
+.s-box:hover .bar{
+    display: block;
+}
+
+@keyframes bar{
+    0%{
+        width: 0px;
+
+    }
+    100%{
+        width: 100px;
+    }
 }
