@@ -158,7 +158,7 @@ figcaption {
 
 /* end dropdown tesing*/
 
-h1{
+h1#banner{
     font-family: "Open Sans";
 
 	top: 0px;
