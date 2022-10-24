@@ -53,6 +53,7 @@ class MyHeader extends HTMLElement {
         `
     }
 }
+
 customElements.define('my-header', MyHeader)
 
 class NkHeader extends HTMLElement {
@@ -195,7 +196,7 @@ const navSlide = () => {
 navSlide();
 
 
-class EditHeader extends HTMLElement {
+class PrHeader extends HTMLElement {
     connectedCallback()  {
         this.innerHTML = `
         <header>
@@ -203,7 +204,7 @@ class EditHeader extends HTMLElement {
             <div class="logo">
             <img src="/images/Utsukushima red gate ink.svg" alt="GateIcon" id="Gate" height="100px">
            
-                <h4>Nikkei Histories</h4>
+                <h4>Robert A. Hegwood</h4>
             
             </div>
             <ul class="nav-links">
@@ -260,4 +261,4 @@ class EditHeader extends HTMLElement {
         `
     }
 }
-customElements.define('edit-header', EditHeader)
+customElements.define('pr-header', EditHeader)

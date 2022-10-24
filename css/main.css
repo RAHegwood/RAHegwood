@@ -580,12 +580,15 @@ a[href^=mailto] {
     flex-direction: column
 
 }
+
+
 .s-heading h1{
     color: #23364d;
     font-size: 3rem;
     font-weight: 300;
     letter-spacing: 1px;
     margin: 0px;
+    padding-top: 50px;
 }
 
 .s-heading p{
@@ -629,7 +632,7 @@ a[href^=mailto] {
     text-align: center;
 }
 .s-btn{
-    width: 140;
+    width: 200;
     height: 40px;
     border-radius: 10px;
     border: 1px solid rgba(74, 144, 226, 0.5);
