@@ -32,6 +32,13 @@ class MyHeader extends HTMLElement {
                             Nikkei Histories</a>
                     </div>
                 </div>
+                <div class="dropdown-menu">
+                    <button class="menu-btn">Services</button>
+                    <div class="menu-content">
+                        <a class="links" href="editing.html">
+                            Editing Services</a>
+                    </div>
+                </div>
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
