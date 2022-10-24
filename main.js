@@ -1,7 +1,7 @@
 class MyHeader extends HTMLElement {
     connectedCallback()  {
         this.innerHTML = `
-        <header>
+        <header class="sticky">
         <nav>
             <div class="logo">
             <img src="/images/Utsukushima red gate ink.svg"alt="GateIcon" id="Gate" height="100px">
@@ -51,7 +51,7 @@ customElements.define('my-header', MyHeader)
 class NkHeader extends HTMLElement {
     connectedCallback()  {
         this.innerHTML = `
-        <header>
+        <header class="sticky">
         <nav>
             <div class="logo">
             <img src="/images/Utsukushima red gate ink.svg" alt="GateIcon" id="Gate" height="100px">
