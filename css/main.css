@@ -8,6 +8,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Open Sans, sans-serif;
+    height: 100vh;
 }
 a{
     text-decoration: none;
@@ -581,7 +582,44 @@ a[href^=mailto] {
 
 }
 
+.hero-image{
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(/images/Proofreading_banner_web.jpeg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.hero-image .hero-text{
+    color: #fff;
+    text-align: center;   
+}
+
+.hero-image .hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.hero-image .hero-text p{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 10px;
+    padding-bottom: 20px;
+}
+.hero-image .hero-button{
+    text-decoration: none;
+    color: #fff;
+    background: #0f0f0f;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+
+}
 .s-heading h1{
     color: #23364d;
     font-size: 3rem;
@@ -589,6 +627,11 @@ a[href^=mailto] {
     letter-spacing: 1px;
     margin: 0px;
     padding-top: 50px;
+}
+
+.hero-button:hover{
+    background: #fff;
+    color: #0f0f0f;
 }
 
 .s-heading p{
