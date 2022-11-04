@@ -576,7 +576,7 @@ a[href^=mailto] {
 .hero{
     position: relative;
     width:100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -613,7 +613,18 @@ a[href^=mailto] {
     font-weight: 200;
     margin-top: 1rem;
 }
+.hero .hero-button{
+    font-family: Open Sans, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    background: #0f0f0f;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: inline-block;
 
+}
 
 
 /*editing services pages https://www.youtube.com/watch?v=maeDgHcK_Os */
@@ -629,8 +640,8 @@ a[href^=mailto] {
 
 .hero-image{
     background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url(/images/Proofreading_banner_web.jpeg);
-    background-position: center;
-    background-repeat: none;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -639,6 +650,7 @@ a[href^=mailto] {
 
 }
 .hero-image .hero-text{
+    position: relative;
     color: #fff;
     text-align: center;   
 }
@@ -678,6 +690,8 @@ a[href^=mailto] {
     background: #fff;
     color: #0f0f0f;
 }
+
+/* editing services section click boxes*/
 
 .s-heading p{
     color: rgba(87, 105, 117, .6);
