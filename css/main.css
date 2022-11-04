@@ -576,14 +576,14 @@ a[href^=mailto] {
 .hero{
     position: relative;
     width:100vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 .hero::before{
-    content: "*";
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -603,6 +603,16 @@ a[href^=mailto] {
     margin: 0.625rem;
 }
 
+.hero-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.hero-subtitle {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
 
 
 
