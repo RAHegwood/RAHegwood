@@ -637,8 +637,27 @@ a[href^=mailto] {
     display: inline-block;
 
 }
+#edit1{
+    float:left;
+    padding: 10px;
+    width: 40%;
+    height: 300px;
+}
 
-
+#edit2{
+    float:right;
+    padding: 10px;
+    width: 50%;
+    
+}
+ul#edit2 {
+    list-style: circle;
+}
+#rates::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
 /*editing services pages https://www.youtube.com/watch?v=maeDgHcK_Os */
 .services {
     width: 100%;
