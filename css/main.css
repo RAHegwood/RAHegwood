@@ -126,12 +126,14 @@ figcaption {
     min-width: 160px;
     z-index:1;
  }
+ 
  header.sticky {
     position:sticky;
     top: 0;
+    z-index: 1;
 
  }
- 
+
  .links,.links-hidden{
     display: inline-block;
     color: rgb(255, 255, 255);
@@ -223,7 +225,6 @@ blockquote{
   
   }
 
-  
   .mainContent a:link {
     color: #CC1919;
     text-decoration: none;
@@ -386,13 +387,12 @@ table a:link {
 footer {
     font-family: Open Sans, sans-serif;
     display: flex;
-    background-color: #23364d;
     color: #e2e2e2;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     min-height: 12vh;
-    background-color: #23364d;
+    background-color:black;
     font-family: 'Open Sans', sans-serif;
 }
 a[href^=mailto] {
@@ -464,7 +464,7 @@ a[href^=mailto] {
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 910px) {
     body{
         overflow-x: hidden;
     }
@@ -535,6 +535,7 @@ a[href^=mailto] {
 
 .nav-active{
     transform: translateX(0%);
+    
 }
 
 @keyframes navLinkFadeIn{
@@ -571,6 +572,40 @@ a[href^=mailto] {
     transform: rotate(+45deg) translate(-5px, -5px);
 }
 
+/*alternate hero option*/
+.hero{
+    position: relative;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero::before{
+    content: "*";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/Fountain_pen.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(60%)
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 0.625rem;
+}
+
+
+
+
 /*editing services pages https://www.youtube.com/watch?v=maeDgHcK_Os */
 .services {
     width: 100%;
@@ -587,7 +622,7 @@ a[href^=mailto] {
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    height: 80%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
