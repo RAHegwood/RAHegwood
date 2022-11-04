@@ -507,6 +507,9 @@ a[href^=mailto] {
         font-size: 14px;
 
     }
+    .hero-text{
+        margin-top: 100px;
+    }
 
 }
 
@@ -529,6 +532,15 @@ a[href^=mailto] {
     }
     #blog{
         padding: 20px;
+    }
+    .hero-text{
+        margin-top: 150px;
+    }
+    .hero-title{
+        font-size: 5em;
+    }
+    h2.hero-text{
+        font-size: 1.5em;
     }
 }
 
@@ -656,16 +668,15 @@ a[href^=mailto] {
 }
 
 .hero-image .hero-text h1{
-    font-size: 50px;
-    font-weight: 500;
-    padding-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
 }
 
 .hero-image .hero-text p{
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 10px;
-    padding-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
 }
 .hero-image .hero-button{
     text-decoration: none;
