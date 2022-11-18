@@ -124,13 +124,14 @@ figcaption {
     min-width: 160px;
     z-index:1;
  }
- 
+ /* 
  header.sticky {
     position:sticky;
     top: 0;
     z-index: 1;
-   /* this z-index made the dissapearing nav-bar problem go away*/ 
+   this z-index made the dissapearing nav-bar problem go away 
  }
+ */
 
  .links,.links-hidden{
     display: inline-block;
