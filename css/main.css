@@ -648,6 +648,51 @@ a[href^=mailto] {
     overflow-wrap: break-word;
     padding: 30px;
 }
+
+.wrapper{
+    box-sizing: content-box;
+    color: #0f0f0f;
+    display: flex;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    justify-content: center;
+    letter-spacing: 0.16px;
+    line-height: 28.8px;
+    max-width: 1800px;
+    overflow-wrap: break-word;
+    padding-right: 3vh;
+    padding-left: 3vh;
+    padding-top: 3.3vmax;
+    padding-bottom: 3.3vmax;
+}
+
+.content2{
+    width: 75%;
+}
+.sqs-block-content hr{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    color: #23364d;
+    height: 1px;
+    display: block;
+}
+.sqs-block-content h4{
+    white-space: pre-wrap;transition-timing-function: ease-in;transition-duration: 0.6s;transition-delay: 0.386667s;font-size: 1.5em;
+}
+.sqs-col-7{
+    width: 58%;
+}
+.sqs-row:before, .sqs-after:after{
+    content: "";
+    display: table;
+}
+.preFade{opacity:0; transition-property: opacity;}
+
+.fadeIn:not([data-override-initial-global-animation]){opacity: 1;}
+
+
 #edit1{
     float:left;
     padding: 3em;
