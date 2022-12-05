@@ -670,6 +670,7 @@ a[href^=mailto] {
 
 .content2{
     width: 75%;
+    display: block;
 }
 .sqs-block-content hr{
     margin-block-start: 0.5em;
@@ -680,18 +681,59 @@ a[href^=mailto] {
 }
 .sqs-block-content h4{
     white-space: pre-wrap;transition-timing-function: ease-in;transition-duration: 0.6s;transition-delay: 0.386667s;font-size: 1.5em;
+    margin: 2rem 0;
+}
+.spacer-block{
+    position: relative;
+    height: auto;
+    display: block;
+    padding: 17px;
+    height: 34px;
+
+}
+.sqs-col-1{
+    width: 8.3%;
+    float: left;
+
+}
+.sqs-block-content p{
+    margin: 1rem 0;
 }
 .sqs-col-7{
     width: 58%;
+}
+.sqs-col-4{
+    width: 33%;
 }
 .sqs-row:before, .sqs-after:after{
     content: "";
     display: table;
 }
-.preFade{opacity:0; transition-property: opacity;}
+.sqs-row{
+    width: auto;
+}
+.preFade{
+    animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 
-.fadeIn:not([data-override-initial-global-animation]){opacity: 1;}
-
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 #edit1{
     float:left;
@@ -735,6 +777,51 @@ a[href^=mailto] {
     display: table;
     clear: both;
 }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    font-family: Open Sans, sans-serif;
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #CC1919;
+    font-family: Open Sans, sans-serif;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: Open Sans, sans-serif;
+  }
+textarea#message{
+    font-family: Open Sans, sans-serif;
+}
+
+
+
+
 /*editing services pages https://www.youtube.com/watch?v=maeDgHcK_Os */
 .services {
     width: 100%;
