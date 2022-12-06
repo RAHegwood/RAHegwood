@@ -649,6 +649,7 @@ a[href^=mailto] {
     padding: 30px;
 }
 
+
 .wrapper{
     box-sizing: content-box;
     color: #0f0f0f;
@@ -670,7 +671,8 @@ a[href^=mailto] {
 
 .content2{
     width: 75%;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 .sqs-block-content hr{
     margin-block-start: 0.5em;
@@ -696,6 +698,10 @@ a[href^=mailto] {
     float: left;
 
 }
+.sqs-block{
+    padding-left: 17px;
+    padding-right: 17px;
+}
 .sqs-block-content p{
     margin: 1rem 0;
 }
@@ -711,6 +717,8 @@ a[href^=mailto] {
 }
 .sqs-row{
     width: auto;
+    display: flex;
+    position: relative;
 }
 .preFade{
     animation: fadeIn 5s;
