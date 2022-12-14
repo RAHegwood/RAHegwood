@@ -20,7 +20,7 @@ nav{
     align-items: center;
     min-height: 7vh;
     max-height: 9vh;
-    background-color: #23364d;
+    background-color: #08415c;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -31,7 +31,7 @@ figure {
     margin: auto;
 }
 figcaption {
-    background-color: #23364d;
+    background-color: #08415c;
     color: #fff;
     font: italic smaller sans-serif;
     padding: 3px;
@@ -64,7 +64,7 @@ figcaption {
     width: 50%;
 }
 
-.nav-links li {
+.nav-links li, .dropdown-menu {
     list-style: none;
     padding: 10px;
     color: rgb(226, 226, 226);
@@ -96,7 +96,7 @@ figcaption {
 /* dropdown testing*/
 
 .menu-btn {
-    background-color: #23364d;
+    background-color: #08415c;
     margin:auto;
     justify-content: space-around;
     color: rgb(226, 226, 226);
@@ -120,7 +120,7 @@ figcaption {
  .menu-content {
     display: none;
     position: absolute;
-    background-color: #23364d;
+    background-color: #08415c;
     min-width: 160px;
     z-index:1;
  }
@@ -154,9 +154,11 @@ figcaption {
     display: block;
  }
  .dropdown-menu:hover .menu-btn {
-     background-color: red;
+     background-color: #CC1919;
  }
-
+.nav-links li:hover {
+    background-color: #CC1919;
+}
 
 /* end dropdown tesing*/
 
@@ -318,7 +320,7 @@ table a:link {
 }
 .blog-heading h3{
     font-size: 2.4rem;
-    color: #23364d;
+    color: #08415c;
     font-weight: 600;
 }
 .blog-conatiner{
@@ -357,7 +359,7 @@ table a:link {
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 500;
-    color: #23364d;
+    color: #08415c;
 }
 .blog-text .blog-title:hover{
     color: #CC1919;
@@ -462,7 +464,7 @@ a[href^=mailto] {
     
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 1010px) {
     body{
         overflow-x: hidden;
     }
@@ -545,7 +547,8 @@ a[href^=mailto] {
 
 .nav-active{
     transform: translateX(0%);
-    
+    z-index: 3;
+
 }
 
 @keyframes navLinkFadeIn{
@@ -677,7 +680,7 @@ a[href^=mailto] {
 .sqs-block-content hr{
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
-    color: #23364d;
+    color: #08415c;
     height: 1px;
     display: block;
 }
@@ -770,7 +773,7 @@ a[href^=mailto] {
     font-style: normal;
     letter-spacing: 0.16px;
     line-height: 1.8;
-    background-color: #1da1f2;
+    background-color: #C2D6E0;
     overflow-wrap: break-word;
     text-align: left;
     border-radius: 10px;
@@ -802,7 +805,7 @@ input[type=text], select, textarea {
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
     font-family: Open Sans, sans-serif;
-    background-color: #04AA6D;
+    background-color:  #A3BAC3ff;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -812,7 +815,7 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #CC1919;
+    background-color: #f45b5f;
     font-family: Open Sans, sans-serif;
   }
   
@@ -883,7 +886,7 @@ textarea#message{
 
 }
 .s-heading h1{
-    color: #23364d;
+    color: #08415c;
     font-size: 3rem;
     font-weight: 300;
     letter-spacing: 1px;
@@ -929,7 +932,7 @@ textarea#message{
     
 }
 .s-box h1{
-    color: #23364d;
+    color: #08415c;
     letter-spacing: 1px;
     font-size: 1.5rem;
     margin-bottom: 8px;
