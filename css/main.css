@@ -154,10 +154,10 @@ figcaption {
     display: block;
  }
  .dropdown-menu:hover .menu-btn {
-     background-color: #CC1919;
+     background-color: #e63946;
  }
 .nav-links li:hover {
-    background-color: #CC1919;
+    background-color: #e63946;
 }
 
 /* end dropdown tesing*/
