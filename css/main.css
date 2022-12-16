@@ -55,6 +55,8 @@ figcaption {
 }
 .logo h4{
     margin: auto;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 /*Header icon fix attempt end*/

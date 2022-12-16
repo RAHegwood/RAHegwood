@@ -5,7 +5,7 @@ class MyHeader extends HTMLElement {
         <nav>
             <div class="logo">
             <img src="/images/Utsukushima red gate ink.svg"alt="GateIcon" id="Gate" height="100px">
-                <h4>Robert A. Hegwood</h4>
+                <h4>Robert A Hegwood</h4>
             </div>
             <ul class="nav-links">
                 <li>
