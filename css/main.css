@@ -48,7 +48,9 @@ figcaption {
     letter-spacing: 2px;
     font-size: 24px; 
 }
-
+ul {
+    list-style-type: none;
+}
 /*Header icon fix attempt*/
 .logo img {
     display:flex;
@@ -927,6 +929,59 @@ textarea#message{
     background: #fff;
     color: #0f0f0f;
 }
+/*Flex container section for data home page*/
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border 3px solid #333;
+    font-family: 'Open Sans', sans-serif;
+    color: #0f0f0f;
+
+}
+
+.flexbox-item1 {
+    min-height: 100px;
+    flex-grow: 0;
+    color: #0f0f0f;
+    
+}
+.flexbox-item1 .nav-link:hover{
+    background-color: #9b9b99;
+}
+.flexbox-item2 {
+    min-height: 200px;
+    flex-grow: 1;
+    
+}.flexbox-item3 {
+    min-height: 300px;
+    flex-grow: 1;
+}
+.flexbox-item1 .nav-item.current-page .nav-link::before {
+  visibility: visible;
+  transform: scaleX(1);
+} 
+.nav-item.current-page{
+    text-decoration:underline;
+}
+.nav-item .nav-link, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    color: #0f0f0f;
+  }
+
 
 /* editing services section click boxes*/
 
