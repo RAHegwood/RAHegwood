@@ -939,13 +939,12 @@ textarea#message{
     align-items: flex-start;
     margin-top: 30px;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 .flexbox-item{
     width: 200px;
     margin: 10px;
-    border 3px solid #333;
+    border: 3px solid #333;
     font-family: 'Open Sans', sans-serif;
     color: #0f0f0f;
 
@@ -979,7 +978,7 @@ textarea#message{
     text-decoration: none;
     cursor: pointer;
     justify-content: center;
-    color: #0f0f0f;
+    
   }
 
 
