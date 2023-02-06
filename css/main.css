@@ -403,7 +403,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     min-height: 12vh;
-    background-color:black;
+    background-color: #121212;
     font-family: 'Open Sans', sans-serif;
 }
 a[href^=mailto] {
@@ -947,6 +947,7 @@ textarea#message{
     border: 3px solid #333;
     font-family: 'Open Sans', sans-serif;
     color: #0f0f0f;
+   
 
 }
 
@@ -962,8 +963,9 @@ textarea#message{
 .flexbox-item2 {
     min-height: 200px;
     flex-grow: 1;
-    
-}.flexbox-item3 {
+    flex-direction: column;
+}
+.flexbox-item3 {
     min-height: 300px;
     flex-grow: 1;
 }
@@ -977,10 +979,19 @@ textarea#message{
 .nav-item .nav-link, a:visited {
     text-decoration: none;
     cursor: pointer;
-    justify-content: center;
-    
+    justify-content: center; 
   }
-
+.flex-content1{
+    align-self: center;
+}
+.Tableau-btn {
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    padding: 15px 25px;;
+    background-image: url(/images/Tableau_bw.png);
+    background-size: cover;
+}
 
 /* editing services section click boxes*/
 
