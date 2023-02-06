@@ -406,6 +406,7 @@ footer {
     background-color: #121212;
     font-family: 'Open Sans', sans-serif;
 }
+
 a[href^=mailto] {
     color:#e2e2e2;
 }
@@ -934,7 +935,7 @@ textarea#message{
 .flexbox-container {
     display: flex;
     flex-wrap: wrap;
-    height: 800px;
+    height: 80vh;
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 30px;
@@ -947,8 +948,6 @@ textarea#message{
     border: 3px solid #333;
     font-family: 'Open Sans', sans-serif;
     color: #0f0f0f;
-   
-
 }
 
 .flexbox-item1 {
@@ -961,18 +960,25 @@ textarea#message{
     background-color: #9b9b99;
 }
 .flexbox-item2 {
-    min-height: 200px;
-    flex-grow: 1;
-    flex-direction: column;
+    min-height: 100px;
+    
+    
 }
 .flexbox-item3 {
-    min-height: 300px;
-    flex-grow: 1;
+    min-height: 100px;
+    
 }
 .flexbox-item1 .nav-item.current-page .nav-link::before {
   visibility: visible;
   transform: scaleX(1);
 } 
+.sidebar_container {
+    margin-left: 20px;
+}
+.sidebar_nav{
+    float: left;
+    width: 15%;
+}
 .nav-item.current-page{
     text-decoration:underline;
 }
@@ -981,6 +987,8 @@ textarea#message{
     cursor: pointer;
     justify-content: center; 
   }
+
+
 .flex-content1{
     align-self: center;
 }
@@ -992,7 +1000,16 @@ textarea#message{
     background-image: url(/images/Tableau_bw.png);
     background-size: cover;
 }
+section.portfolio_links::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
 
+.portfolio_links{
+    height: 80vh;
+
+}
 /* editing services section click boxes*/
 
 .s-heading p{
