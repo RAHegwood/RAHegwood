@@ -932,13 +932,15 @@ textarea#message{
 }
 /*Flex container section for data home page*/
 
+.portfolio_links{
+    height: 80vh;
+}
+
 .flexbox-container {
     display: flex;
     flex-wrap: wrap;
-    height: 80vh;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
-    margin-top: 30px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -952,8 +954,9 @@ textarea#message{
 
 .flexbox-item1 {
     min-height: 100px;
-    flex-grow: 0;
+    width: 100%;
     color: #0f0f0f;
+    text-align: center;
     
 }
 .flexbox-item1 .nav-link:hover{
@@ -961,12 +964,12 @@ textarea#message{
 }
 .flexbox-item2 {
     min-height: 100px;
-    
+    width: 45%;
     
 }
 .flexbox-item3 {
     min-height: 100px;
-    
+    width: 45%;
 }
 .flexbox-item1 .nav-item.current-page .nav-link::before {
   visibility: visible;
@@ -974,10 +977,12 @@ textarea#message{
 } 
 .sidebar_container {
     margin-left: 20px;
+    margin-top: 30px;
 }
 .sidebar_nav{
     float: left;
     width: 15%;
+    margin-top: 80px;
 }
 .nav-item.current-page{
     text-decoration:underline;
@@ -1006,10 +1011,7 @@ section.portfolio_links::after{
     clear: both;
 }
 
-.portfolio_links{
-    height: 80vh;
 
-}
 /* editing services section click boxes*/
 
 .s-heading p{
