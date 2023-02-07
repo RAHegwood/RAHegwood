@@ -953,7 +953,7 @@ textarea#message{
 }
 
 .flexbox-item1 {
-    min-height: 100px;
+    min-height: 80px;
     width: 100%;
     color: #0f0f0f;
     text-align: center;
@@ -994,19 +994,7 @@ textarea#message{
   }
 
 
-.flex-content1{
-    align-self: center;
-}
-/*
-.Tableau-btn {
-    width: 150px;
-    border: none;
-    cursor: pointer;
-    padding: 15px 25px;;
-    background-image: url(/images/Tableau_bw.png);
-    background-size: cover;
-}
-*/
+
 section.portfolio_links::after{
     content: " ";
     display: table;
