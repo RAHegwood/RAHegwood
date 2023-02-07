@@ -957,15 +957,18 @@ textarea#message{
     width: 100%;
     color: #0f0f0f;
     text-align: center;
+   
+    
     
 }
 .flexbox-item1 .nav-link:hover{
     background-color: #9b9b99;
 }
 .flexbox-item2 {
+    display: flex;
     min-height: 100px;
     width: 45%;
-    
+
 }
 .flexbox-item3 {
     min-height: 100px;
@@ -997,6 +1000,7 @@ textarea#message{
 .flex-content1{
     align-self: center;
 }
+/*
 .Tableau-btn {
     width: 150px;
     border: none;
@@ -1005,6 +1009,7 @@ textarea#message{
     background-image: url(/images/Tableau_bw.png);
     background-size: cover;
 }
+*/
 section.portfolio_links::after{
     content: " ";
     display: table;
