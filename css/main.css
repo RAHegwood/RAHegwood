@@ -947,7 +947,6 @@ textarea#message{
 .flexbox-item{
     width: 200px;
     margin: 10px;
-    border: 3px solid #333;
     font-family: 'Open Sans', sans-serif;
     color: #0f0f0f;
 }
@@ -965,12 +964,36 @@ textarea#message{
     display: flex;
     min-height: 100px;
     width: 45%;
-
+    border-radius: 10px;
 }
 .flexbox-item3 {
     min-height: 100px;
     width: 45%;
+    border-radius: 10px;
 }
+.flexbox-item4 {
+    display: flex;
+    min-height: 100px;
+    width: 45%;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.flexbox-item4 a {
+    display: flex;
+    justify-content: center; 
+    border-radius: 0px;
+}
+.flexbox-item4 p {
+    font-size: 1.5em;
+    align-self: center;
+
+
+}
+.flexbox-item2:hover, .flexbox-item3:hover, .flexbox-item4:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: all ease .3s;
+}
+
 .flexbox-item1 .nav-item.current-page .nav-link::before {
   visibility: visible;
   transform: scaleX(1);
